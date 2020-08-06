@@ -1,5 +1,4 @@
 
-repository.tf
 # The terraform resource for the repository
 resource "github_repository" "github-management" {
   name        = "github-management"

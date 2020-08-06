@@ -1,7 +1,6 @@
-provider.tf
 # Configure the GitHub Provider
 provider "github" {
   version      = "~> 2.2"
-  organization = "<github-org-name>"
+  organization = "rroehl"
   # Export the GITHUB_TOKEN as an environment variable
 }
