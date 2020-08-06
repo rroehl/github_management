@@ -1,13 +1,13 @@
 
 # The terraform resource for the repository
-resource "github_repository" "github-management" {
-  name        = "github-management"
+resource "github_repository" "github_management" {
+  name        = "github_management"
   description = "Terraform based repository to manage all our GutHub repositories"
 
-  private            = false
+  private            = true
   has_issues         = true
-  has_wiki           = false
-  allow_merge_commit = false
+  has_wiki           = true
+  allow_merge_commit = true
   allow_squash_merge = true
   allow_rebase_merge = true
   auto_init          = false
